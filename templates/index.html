@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class = "jumbotron text-center">
+    <h3> Yazılım Bilimi Bloğuna Hoşgeldiniz</h3>
+    <p>Bu blogda IT dunyasi ile ilgili yazilar yayınlanacaktır.</p>
+</div>
+{% if answer == "1" %}
+<p> cevabımız UMİT EYMEN PORTAKAL ÇİKOLATALI PASTA KAZANDINIZ </P>
+
+{% elif answer == "2" %}
+<p> cevabımız ENES DORUK PORTAKAL KARAMELLİ BAR KAZANDINIZ </P>    
+
+{% else %}
+<P> cevabımız GULŞAH PORTAKAL AHMET KAZANDINIZ
+{% endif %}    
+    
+    
+
+
+{% endblock %}
